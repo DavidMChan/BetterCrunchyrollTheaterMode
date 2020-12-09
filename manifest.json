@@ -1,0 +1,35 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [
+         "background.js"
+      ]
+   },
+   "content_scripts": [
+      {
+         "css": [
+            "style.css"
+         ],
+         "js": [
+            "background.js"
+         ],
+         "matches": [
+            "https://www.crunchyroll.com/*"
+         ],
+         "run_at": "document_idle"
+      }
+   ],
+   "description": "A Chrome Extension that adds a (Better) Theater mode-like experience to CrunchyRoll's Web Interface.",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-32.png",
+      "48": "images/icon-64.png"
+   },
+   "manifest_version": 2,
+   "name": "Better CrunchyRoll Theater Mode",
+   "permissions": [
+      "https://www.crunchyroll.com/*"
+   ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
+}
