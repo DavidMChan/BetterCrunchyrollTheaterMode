@@ -4,7 +4,6 @@ body.crunchyroll-theater-mode .message_box,
 body.crunchyroll-theater-mode #message_box {
 	display: none!important;
 }
-
 body.crunchyroll-theater-mode #template_container {
 	width: auto!important;
 }
@@ -32,14 +31,13 @@ body.crunchyroll-theater-mode #showmedia_video_player iframe {
     left: 0!important;
     top: 0!important;
 }
-
 body.crunchyroll-theater-mode #showmedia {
 	display: flex;
 }
 body.crunchyroll-theater-mode #main_content {
 	flex-grow: 1;
 	margin-right: 30px;
-	witdh: 100%;
+	width: 100%;
 }
 body.crunchyroll-theater-mode .new_layout,
 body.crunchyroll-theater-mode .new_layout_wide {
@@ -55,8 +53,6 @@ body.crunchyroll-theater-mode .showmedia-header {
 body.crunchyroll-theater-mode .showmedia {
 	order: 3!important;
 } */
-
-
 body.crunchyroll-theater-mode .collection-carousel-contents {
 	width: 100%!important;
 	margin-left: 0px!important;
