@@ -39,6 +39,7 @@ body.crunchyroll-theater-mode #showmedia {
 body.crunchyroll-theater-mode #main_content {
 	flex-grow: 1;
 	margin-right: 30px;
+	witdh: 100%;
 }
 body.crunchyroll-theater-mode .new_layout,
 body.crunchyroll-theater-mode .new_layout_wide {
