@@ -34,9 +34,6 @@ if (document.getElementsByClassName('userpanel-item login').length > 0) {
   // Create comment book DIV
   document.getElementById('main_content').appendChild(new_guestbook);
 
-
-  document.getElementById('')
-
 } else {
   document.querySelectorAll('#showmedia_video').forEach((element) => {
     document.querySelector('body').classList.add('crunchyroll-theater-mode');
