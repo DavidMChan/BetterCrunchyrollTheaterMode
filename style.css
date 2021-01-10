@@ -1,48 +1,50 @@
-/* version: 0.0.7 */
-body.crunchyroll-theater-mode header+a,
+/* version: 0.0.3 */
+
+/*Logged in CSS */
+body.crunchyroll-theater-mode header + a,
 body.crunchyroll-theater-mode .message_box,
 body.crunchyroll-theater-mode #message_box {
-	display: none!important;
+  display: none !important;
 }
 body.crunchyroll-theater-mode #template_container {
-	width: auto!important;
+  width: auto !important;
 }
 body.crunchyroll-theater-mode .player-container {
-	width: 100%!important;
-    height: 100%!important;
+  width: 100% !important;
+  height: 100% !important;
 }
 body.crunchyroll-theater-mode #showmedia_video_box_wide {
-	width: 100%!important;
-    height: 100%!important;
-	order: 1!important;
+  width: 100% !important;
+  height: 100% !important;
+  order: 1 !important;
 }
 body.crunchyroll-theater-mode #showmedia_video_player {
-	position: relative!important;
-    width: 100%!important;
-    padding-bottom: 0px!important;
-    height: 56.25vw!important;
-    max-height: calc(100vh - 80px) !important;
+  position: relative !important;
+  width: 100% !important;
+  padding-bottom: 0px !important;
+  height: 56.25vw !important;
+  max-height: calc(100vh - 80px) !important;
 }
 body.crunchyroll-theater-mode #showmedia_video_player iframe {
-	max-height: calc(100vh - 80px)!important;
-	position: absolute!important;
-    width: 100%!important;
-    height: 100%!important;
-    left: 0!important;
-    top: 0!important;
+  max-height: calc(100vh - 80px) !important;
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
 }
 body.crunchyroll-theater-mode #showmedia {
-	display: flex;
+  display: flex;
 }
 body.crunchyroll-theater-mode #main_content {
-	flex-grow: 1;
-	margin-right: 30px;
-	width: 100%;
+  flex-grow: 1;
+  margin-right: 30px;
+  width: 100%;
 }
 body.crunchyroll-theater-mode .new_layout,
 body.crunchyroll-theater-mode .new_layout_wide {
-	display: flex!important;
-    flex-direction: column!important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 /* body.crunchyroll-theater-mode .showmedia-trail {
 	order: 2!important;
@@ -54,20 +56,102 @@ body.crunchyroll-theater-mode .showmedia {
 	order: 3!important;
 } */
 body.crunchyroll-theater-mode .collection-carousel-contents {
-	width: 100%!important;
-	margin-left: 0px!important;
+  width: 100% !important;
+  margin-left: 0px !important;
 }
 body.crunchyroll-theater-mode .collection-carousel {
-	width: 100%!important;
+  width: 100% !important;
 }
-body.crunchyroll-theater-mode .widget-form-td{
-	padding: 0px 15px 0px 0px!important;
+body.crunchyroll-theater-mode .widget-form-td {
+  padding: 0px 15px 0px 0px !important;
 }
 body.crunchyroll-theater-mode #main_content textarea {
-	max-width: 100%!important;
-	width: 100%!important;
+  max-width: 100% !important;
+  width: 100% !important;
 }
 body.crunchyroll-theater-mode .comments .reply-form {
-	max-width: initial!important;
-    width: calc(100% - 12px)!important;
+  max-width: initial !important;
+  width: calc(100% - 12px) !important;
+}
+
+/* Guest CSS */
+body.guest-crunchyroll-theater-mode header + a,
+body.guest-crunchyroll-theater-mode .message_box,
+body.guest-crunchyroll-theater-mode #message_box {
+  display: none !important;
+}
+body.guest-crunchyroll-theater-mode #template_container {
+  width: auto !important;
+}
+body.guest-crunchyroll-theater-mode .player-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+body.guest-crunchyroll-theater-mode #showmedia_video_box_wide {
+  width: 100% !important;
+  height: 100% !important;
+  order: 1 !important;
+}
+body.guest-crunchyroll-theater-mode #showmedia_video_player {
+  position: relative !important;
+  width: 100% !important;
+  padding-bottom: 0px !important;
+  height: 56.25vw !important;
+  max-height: calc(100vh - 80px) !important;
+}
+body.guest-crunchyroll-theater-mode #showmedia_video_player iframe {
+  max-height: calc(100vh - 80px) !important;
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+body.guest-crunchyroll-theater-mode #showmedia {
+  display: flex;
+}
+body.guest-crunchyroll-theater-mode #main_content {
+  flex-grow: 1;
+  margin-right: 30px;
+  width: 100%;
+}
+body.guest-crunchyroll-theater-mode .new_layout,
+body.guest-crunchyroll-theater-mode .new_layout_wide {
+  display: flex !important;
+  flex-direction: column !important;
+}
+/* body.guest-crunchyroll-theater-mode .showmedia-trail {
+	order: 2!important;
+}
+body.guest-crunchyroll-theater-mode .showmedia-header {
+	order: 2!important;
+}
+body.guest-crunchyroll-theater-mode .showmedia {
+	order: 3!important;
+} */
+body.guest-crunchyroll-theater-mode .collection-carousel-contents {
+  width: 100% !important;
+  margin-left: 0px !important;
+}
+body.guest-crunchyroll-theater-mode .collection-carousel {
+  width: 100% !important;
+}
+body.guest-crunchyroll-theater-mode .widget-form-td {
+  padding: 0px 15px 0px 0px !important;
+}
+body.guest-crunchyroll-theater-mode #main_content textarea {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+body.guest-crunchyroll-theater-mode .comments .reply-form {
+  max-width: initial !important;
+  width: calc(100% - 12px) !important;
+}
+
+body.guest-crunchyroll-theater-mode #main_content_left_ {
+  width: calc(100% - 12px) !important;
+  padding-right: 30px;
+}
+body.guest-crunchyroll-theater-mode #main_content_right_ {
+  width: 300px;
 }
